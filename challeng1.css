@@ -1,0 +1,126 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.div{
+    flex: 1;
+    height: 350px;
+    padding-top: 40px;
+    padding-left: 40px;
+    transition: 0.6s;
+}
+.div1{
+    background-color: hsl(31, 77%, 52%);
+    /* flex: 1;
+    padding-left: 40px;
+    padding-top: 40px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+    /* height: 350px;
+    transition: 0.6s; */
+}
+.univ{
+    /* margin: 260px; */
+    padding: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* margin-left: 260px;
+    margin-right: 260px; */
+    }
+
+.div2{
+    background-color:hsl(184, 100%, 22%);
+    /* flex: 1;
+    height: 350px;
+    padding-top: 40px;
+    padding-left: 40px;
+    transition: 0.6s; */
+}
+
+.div3{
+    background-color: hsl(179, 100%, 13%);
+    /* flex: 1;
+    height: 350px;
+    padding-top: 40px;
+    padding-left: 40px; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* transition: 0.6s; */
+}
+p, h4{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+h4{
+    color:hsl(31, 77%, 52%);
+    padding-top: 9%;
+}
+
+.button1{
+    background-color:hsl(0, 0%, 95%);
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    border-radius: 50px;
+    margin-top: 20%;
+    transition: 0.7s;
+}
+
+#l3{
+    color:hsl(179, 100%, 13%);
+}
+#l2{
+    color: hsl(184, 100%, 22%);
+}
+
+.button1:hover{
+    background-color: black;
+    height: 45px;
+}
+h4:hover, #l2:hover, #l3:hover{
+    color: whitesmoke;
+    font-size: 16px;
+
+}
+
+.div1:hover, .div2:hover, .div3:hover{
+    opacity: 0.9;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .univ{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .div{
+        margin: 10px 0px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
